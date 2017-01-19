@@ -5,13 +5,8 @@
 feature 'View hitpoints' do
   
   scenario "viewing player two's hitpoints" do
-   
-    visit('/')
-    fill_in :player_one_name, with: 'Player 1'
-    fill_in :player_two_name, with: 'Player 2'
-    click_button 'Fight!'
-    expect(page).to have_content 'Player 2 has 100 hit points'
-  
+    sign_in_and_play
+    expect(page).to have_content 'Player 2 has 100 hit points'  
   end
 
 end
