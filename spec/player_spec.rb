@@ -22,5 +22,14 @@ describe Player do
 			expect{player_one.receive_damage}.to change{player_one.current_hit_points}.by(-10)
 		end
 	end
+
+	describe '#dead?' do
+		it 'returns true when player reaches 0 hit points' do
+			10.times do
+				player_one.receive_damage
+			end
+			expect(player_one.dead?).to eq true
+		end
+	end
 	
 end
