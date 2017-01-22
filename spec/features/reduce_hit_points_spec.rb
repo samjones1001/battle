@@ -13,7 +13,7 @@ feature 'reduce hit points' do
   # So I can start to lose a game of Battle,
   # I want Player 2's attack to reduce my HP
 
-  scenario "player two loses hit points" do
+  scenario "player one loses hit points" do
  	sign_in_and_play
  	click_button 'Attack!'
  	click_button 'Attack!'

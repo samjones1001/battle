@@ -2,7 +2,7 @@
 #So I can see how close I am to winning
 #I want to see Player 2's Hit Points
 
-feature 'View hitpoints' do
+feature 'View player 2 hitpoints' do
   
   scenario "viewing player two's hitpoints" do
     sign_in_and_play

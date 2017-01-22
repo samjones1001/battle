@@ -2,7 +2,7 @@
 # So I can see how close I am to losing,
 # I want to see my own hit points
 
-feature 'View hitpoints' do
+feature 'View player 1 hitpoints' do
   
   scenario "viewing player one's hitpoints" do
     sign_in_and_play
