@@ -1,5 +1,5 @@
 ## Battle
-#### Technologies: Ruby, RSpec, Capybara, Sinatra
+#### Technologies: Ruby, Sinatra, RSpec, Capybara 
 ### Week 3 pair programming challenge for [Makers Academy] (http://www.makersacademy.com)
 [Outline](#outline) | [User Stories](#user-stories) | [Gems](#gems) | [Usage Instructions](#usage-instructions) 
 
@@ -7,6 +7,7 @@
 Create a browser based battle game for two players.
 
 ## Outline
+This project was my first experience of the Sinatra framework and of testing using Capybara.  After some experimentation with both, we used the below users stories as a guide for creating the app.
 
 ## User Stories
 ```
@@ -62,6 +63,10 @@ $ git clone https://github.com/samjones1001/battle
 $ cd battle
 $ rvm 2.3.1
 $ bundle
+```
+* run tests
+```shell
+$ rspec
 ```
 * start up sinatra
 ```shell
